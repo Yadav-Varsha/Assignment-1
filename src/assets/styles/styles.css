@@ -15,7 +15,7 @@ body {
 
 
 .navbar {
-    height: 60px;
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -76,7 +76,7 @@ padding-bottom: 10px;
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
     .sidebar {
-        width: 220px;
+        width: 0;
         /* Reduce width for tablets */
     }
 }
@@ -136,6 +136,7 @@ padding-bottom: 10px;
 .accordion-button img {
     margin-right: 10px;
     /* Space between icon and text */
+    
 }
 
 .accordion-body {
@@ -161,6 +162,7 @@ padding-bottom: 10px;
     display: none;
 }
 
+/*
 .content {
     width: 90%;
 
@@ -180,6 +182,39 @@ padding-bottom: 10px;
     padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
+   
+}
+
+.card {
+    width: 100%;
+    min-height: 200px;
+    
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+*/
+
+.content {
+    width: 90%;
+
+
+}
+
+.main-content {
+    margin-top: 70px;
+    margin-left: 270px;
+    background-color: #00000029;
+    padding:7px 7px 7px 7px;
+   
+}
+
+.card-container {
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
     /* Ensures container grows */
 }
 
@@ -189,7 +224,6 @@ padding-bottom: 10px;
     /* Allow card to start small */
     background-color: #FFFFFF;
     padding: 20px;
-    border-radius: 8px;
    
 }
  
@@ -209,7 +243,7 @@ padding-bottom: 10px;
 
 @media screen and (max-width: 1024px) {
     .main-content {
-        margin-left: 200px;
+        margin-left: 0;
         /* Reduce sidebar space */
     }
 }
